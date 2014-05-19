@@ -14,6 +14,8 @@ Redirect 410 /includes/global.php
 
 SetEnvIf HOST dev.vigilantmedia.com dev
 SetEnvIf HOST test.vigilantmedia.com test
+SetEnvIf HOST dev-ci.vigilantmedia.com dev-ci
+SetEnvIf HOST test-ci.vigilantmedia.com test-ci
 AuthType Basic
 AuthUserFile /home/nemesisv/.htpasswd
 AuthName "Vigilant Media development site"
@@ -23,4 +25,6 @@ Order allow,deny
 Allow from all
 Deny from env=dev
 Deny from env=test
+Deny from env=dev-ci
+Deny from env=test-ci
 Satisfy any
