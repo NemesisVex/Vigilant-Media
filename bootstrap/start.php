@@ -24,11 +24,11 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
+require_once(dirname(__FILE__) . '/../../../vigilantmedia.com/vigilante/includes/env.php');
 
-	'local' => array(),
-
-));
+$env = $app->detectEnvironment(function () {
+	return ENVIRONMENT;
+});
 
 /*
 |--------------------------------------------------------------------------
