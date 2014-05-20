@@ -20,7 +20,7 @@ class HomeController extends BaseController {
 	public function __construct()
 	{
 		$this->layout_variables = array(
-			'vigilantmedia_cdn_uri' => 'http://vigilant-media.s3.amazonaws.com',
+			'vigilantmedia_cdn_uri' => VIGILANTMEDIA_CDN_BASE_URI,
 			'copyright_year' => date('Y'),
 		);
 	}
