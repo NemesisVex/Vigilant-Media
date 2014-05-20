@@ -10,7 +10,7 @@
 	<experience type="summary">
 		<entry num="1">
 			<items>
-				<item>PHP developer with experience in CodeIgniter, jQuery and Blueprint CSS.</item>
+				<item>PHP developer with experience in CodeIgniter, Wordpress and Drupal.</item>
 				<item>Background in journalism and writing easily applied to documentation.</item>
 			</items>
 		</entry>
@@ -47,7 +47,7 @@
 			<location>Seattle, WA</location>
 			<dates>2012 - present</dates>
 			<duties>
-				<duty>Provide support and maintenance for Office of Research web sites.</duty>
+				<duty>Provide support and maintenance for Office of Research web sites and application for administering research funding.</duty>
 				<duty><![CDATA[Develop web applications for Office of Research web sites. Projects include:
 				<ul>
 					<li> Building an administrative interface for limited submission opportunities</li>

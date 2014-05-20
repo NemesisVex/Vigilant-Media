@@ -25,8 +25,9 @@ class MailController extends BaseController {
 	 * @param type $params Standard CI configuration paramaters. Unused.
 	 */
 	public function __construct($params = null) {
-		$this->redirect = !empty($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : $_SERVER['REQUEST_URI'];
-		$this->subject_prefix = 'Vigilant Media Network: feedback';
+		$this->to = 'greg@gregbueno.com';
+		$this->redirect = '/contact/sent/';
+		$this->subject_prefix = 'Vigilant Media Network';
 	}
 	
 	public function email()
@@ -81,37 +82,18 @@ class MailController extends BaseController {
 	 * @todo Support the use of Smarty templates for custom messages.
 	 */
 	protected function send_mail() {
-		// Prepend a prefix.
-		$subject = (empty($this->subject)) ? $this->subject_prefix : $this->subject_prefix . ': ' . $this->subject;
+		$subject = '';
+		if (!empty($this->subject_prefix)) { $subject .= $this->subject_prefix . ': '; }
+		$subject .= (empty($this->subject)) ? 'feedback' : $this->subject;
 		
-		// Build the message body.
-		$message_footer = '';
-		$message_footer .= "\n\n";
-		$message_footer .= "-----------------------------\n";
-		if (!empty($_SERVER['REMOTE_HOST'])) {
-			$message_footer .= "REMOTE_HOST: " . $_SERVER['REMOTE_HOST'] . "\n";
-		}
-		$message_footer .= "REMOTE_ADDR: " . $_SERVER['REMOTE_ADDR'] . "\n";
-		$message_footer .= "HTTP_USER_AGENT: " . $_SERVER['HTTP_USER_AGENT'] . "\n";
-		$this->message .= $message_footer;
+		$_this = $this;
+		Mail::send( array('text' => 'emails.feedback'), array( 'body' => $this->message ), function($message) use ($_this, $subject) {
+			$message->from($_this->from_email, $_this->from_name);
+			$message->to($_this->to);
+			$message->subject($subject);
+		} );
 		
-		// Configure the CodeIgniter email class.
-		$this->CI->email->initialize($this->mail_config);
-
-		$this->CI->email->from($this->from_email, $this->from_name);
-		$this->CI->email->to($this->to);
-		$this->CI->email->subject($subject);
-		$this->CI->email->message($this->message);
-		
-		// Send the e-mail.
-		if (false !== $this->CI->email->send()) {
-			header('Location: ' . $this->redirect);
-			die();
-		}
-		
-		// Debug on failure.
-		echo '<pre>' . "\n";
-		echo $this->CI->email->print_debugger();
-		echo '</pre>' . "\n";
+		header('Location: ' . $this->redirect);
+		die();
 	}
 }

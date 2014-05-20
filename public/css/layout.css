@@ -6,7 +6,7 @@
         Rules for Vigilant Media layouts.
 */
 
-input[type=text], textarea {
+input[type=text, type=email], textarea {
 	border-radius: 4px;
 	padding: 3px;
 }

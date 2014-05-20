@@ -4,38 +4,40 @@
 				<h1>Contact</h1>
 
 				<div class="full-column-last">
+					
+					{{ Form::open( array( 'url' => 'email' ) ) }}
 
-					<form method="post" action="/email/" id="contact-form" name="contact-form">
 						<p>
-							<label for="i">Name:</label>
-							<input type="text" name="i" id="i" size="55" class="form-hidden" />
-							<input type="text" name="n" id="n" size="55" />
+							{{ Form::label('i', 'Name:') }}
+							{{ Form::text('i', null, array( 'class' => 'form-hidden' )) }}
+							{{ Form::text('n', null, array( 'size' => '55')) }}
 						</p>
 
 						<p>
-							<label for="s">E-mail:</label>
-							<input type="text" name="s" id="s" size="55" class="form-hidden" />
-							<input type="text" name="a" id="a" size="55" />
+							{{ Form::label('s', 'E-mail:') }}
+							{{ Form::email('s', null, array( 'class' => 'form-hidden' )) }}
+							{{ Form::email('a', null, array( 'size' => '55')) }}
 						</p>
 
 						<p>
-							<label for="r">Subject:</label>
-							<input type="text" name="r" id="r" size="55" class="form-hidden" />
-							<input type="text" name="t" id="t" size="55" />
+							{{ Form::label('r', 'Subject:') }}
+							{{ Form::text('r', null, array( 'class' => 'form-hidden' )) }}
+							{{ Form::text('t', null, array( 'size' => '55')) }}
 						</p>
 
 						<p>
-							<label for="m">Comments:</label>
-							<textarea cols="75" rows="10" name="m" id="m" wrap="soft" class="form-hidden"></textarea>
-							<textarea cols="75" rows="10" name="b" id="b" wrap="soft"></textarea>
+							{{ Form::label('m', 'Comments:') }}
+							{{ Form::textarea('m', null, array( 'class' => 'form-hidden' )) }}
+							{{ Form::textarea('b', null, array( 'wrap' => 'soft', 'cols' => '75', 'rows' => '10')) }}
 						</p>
 
 						<p>
-							<label>&nbsp;</label>
-							<input type="submit" value="Send" />
-							<input type="reset" value="Reset" />
+							{{ Form::label('submit', '&nbsp;') }}
+							{{ Form::submit('Send') }}
+							{{ Form::reset('Reset') }}
 						</p>
-					</form>
+						
+					{{ Form::close() }}
 				</div>
 
 				<script type="text/javascript" src="{{{ $vigilantmedia_cdn_uri }}}/web/js/jquery.validate.pack.js"></script>

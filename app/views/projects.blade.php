@@ -4,8 +4,8 @@
 				<script type="text/javascript" src="{{{ $vigilantmedia_cdn_uri }}}/web/js/facebox.js"></script>
 				<script type="text/javascript">
 				var facebox_options = {
-					closeImage: '{$smarty.const.VIGILANTMEDIA_CDN_BASE_URI}/web/images/closelabel.gif',
-					loadingImage: '{$smarty.const.VIGILANTMEDIA_CDN_BASE_URI}/web/images/loading.gif'
+					closeImage: '{{ $vigilantmedia_cdn_uri }}/web/images/closelabel.gif',
+					loadingImage: '{{ $vigilantmedia_cdn_uri }}/web/images/loading.gif'
 				};
 				$(function () {
 					$('a[rel*=facebox]').facebox(facebox_options);
@@ -15,7 +15,7 @@
 				<header>
 					<h1>Projects</h1>
 				</header>
-
+				
 				<section id="current" class="full-column-last">
 					<header>
 						<h2>Current</h2>
@@ -23,29 +23,33 @@
 
 					<article class="two-column-single">
 
-						<h3><a href="https://bitbucket.org/observantrecords">Observant Records Network</a></h3>
+						<h3><a href="https://bitbucket.org/observantrecords/profile/repositories">Observant Records Network</a></h3>
 
-						<a href="https://bitbucket.org/observantrecords"><img src="/images/observant_records_o_square_logo.png" class="img-align-right" alt="[Observant Records]" title="[Observant Records]" width="128" /></a>
+						<a href="https://bitbucket.org/observantrecords/profile/repositories"><img src="/images/observant_records_o_square_logo.png" class="img-align-right" alt="[Observant Records]" title="[Observant Records]" width="128" /></a>
 
 						<p>Drupal powers the official sites of my various music projects, including <a href="http://observantrecords.com/">Observant Records</a>, <a href="http://eponymous4.com/">Eponymous 4</a>, <a href="http://emptyensemble.com/">Empty Ensemble</a> and <a href="http://shinkyokuadvocacy.com/">Shinkyoku Advocacy</a>.</p>
 						
-						<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-drupal">custom-built Drupal module</a>, while Amazon Cloudfront provides audio content.</p>
+						<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector">custom-built Drupal module</a>, while Amazon Cloudfront provides audio content.</p>
 						
 						<p><a href="http://gocartdv.com/">GoCart</a> runs the <a href="https://bitbucket.org/observantrecords/observant-records-shop">Observant Records Shop</a>.</p>
 						
-						<p>The source code for the network is available to view on <a href="https://bitbucket.org/observantreocrds">Bitbucket</a>.</p>
+						<p>The source code for the network is available to view on <a href="https://bitbucket.org/observantrecords/profile/repositories">Bitbucket</a> or <a href="https://github.com/observantrecords?tab=repositories">Github</a>.</p>
 
 					</article>
 
 					<article class="two-column-single-last">
 
-						<h3><a href="https://bitbucket.org/NemesisVex/vigilant-media-network">Vigilant Media Network</a></h3>
+						<h3><a href="https://bitbucket.org/NemesisVex/profile/repositories">Vigilant Media Network</a></h3>
 
-						<a href="https://bitbucket.org/NemesisVex/vigilant-media-network"><img src="/images/codeigniter.png" class="img-align-right" alt="[CodeIgniter]" title="[CodeIgniter]" /></a>
+						<a href="https://bitbucket.org/NemesisVex/profile/repositories"><img src="/images/wordpress-logo-notext-rgb.png" class="img-align-right" alt="[Wordpress]" title="[Wordpress]" width="128" /></a>
 
-						<p>The Vigilant Media Network is a set of personal web projects running off the CodeIgniter framework. The Network also includes installations of Movable Type and WordPress.</p>
-
-						<p>The source code for the network is available to view on <a href="https://bitbucket.org/NemesisVex/vigilant-media-network">Bitbucket</a>.</p>
+						<p>The Vigilant Media Network is a set of personal web projects run on Wordpress or built with frameworks such as CodeIgniter and Laravel.</p>
+						
+						<p><a href="http://archive.musicwhore.org/">Musicwhore.org Archive</a> is a Wordpress blog with a <a href="https://bitbucket.org/NemesisVex/musicwhore-artist-connector-for-wordpress">custom plugin</a> that connects to an external database and the Amazon Affiliate Marketing API.</p>
+						
+						<p><a href="https://bitbucket.org/NemesisVex/movable-type-id-mapper-for-wordpress">Another plugin</a> maps Movable Type entry IDs with posts imported into Wordpress.</p>
+						
+						<p>The source code for the network is available to view on <a href="https://bitbucket.org/NemesisVex/profile/repositories">Bitbucket</a> or <a href="https://github.com/NemesisVex?tab=repositories">Github</a>.</p>
 
 					</article>
 				</section>

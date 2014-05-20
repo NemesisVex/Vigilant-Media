@@ -14,16 +14,16 @@
 				</div>
 
 				<div class="resume-column-2">
-				{foreach item=summary_list from=$summary[0]}
-					{if $summary_list.type}
-					<h4>{$summary_list.type}</h4>
-					{/if}
+				@foreach ($summary[0] as $summary_list)
+					@if (!empty($summary_list['type']))
+					<h4>{{ $summary_list['type'] }}</h4>
+					@endif
 					<ul class="resume-summary-list">
-					{foreach name=list_items item=item from=$summary_list->items[0]}
-						<li>{$item}</li>
-					{/foreach}
+					@foreach ($summary_list->items[0] as $list_items => $item)
+						<li>{{{ $item }}}</li>
+					@endforeach
 					</ul>
-				{/foreach}
+				@endforeach
 				</div>
 
 				@endif
@@ -34,14 +34,12 @@
 				</div>
 
 				<div class="resume-column-2">
-				{foreach item=skill_list from=$skills[0]}
+				@foreach ($skills[0] as $skill_list)
 					<p>
-						<em>{$skill_list.type}</em><br />
-				{foreach name=list_items item=skill from=$skill_list->skills[0]}
-				{$skill}{if $smarty.foreach.list_items.last==false}, {/if}
-				{/foreach}
+						<em>{{ $skill_list['type'] }}</em><br />
+						{{ $skill_list->skill_list }}
 					</p>
-				{/foreach}
+				@endforeach
 				</div>
 				@endif
 
@@ -51,21 +49,21 @@
 				</div>
 
 				<div class="resume-column-2">
-				{foreach key=i item=pro from=$professional[0]}
-					<h4>{$pro->title}</h4>
+				@foreach ($professional[0] as $i => $pro)
+					<h4>{{ $pro->title }}</h4>
 
 					<ul class="company-info">
-						<li>{$pro->company}</li>
-						<li>{$pro->location}</li>
-						<li><em>{$pro->dates}</em></li>
+						<li>{{ $pro->company }}</li>
+						<li>{{ $pro->location }}</li>
+						<li><em>{{ $pro->dates }}</em></li>
 					</ul>
 
 					<ul class="resume-duty">
-				{foreach item=duty from=$pro->duties[0]}
-						<li>{$duty}</li>
-				{/foreach}
+					@foreach ($pro->duties[0] as $duty)
+						<li>{{ $duty }}</li>
+					@endforeach
 					</ul>
-				{/foreach}
+				@endforeach
 				</div>
 				@endif
 
@@ -75,21 +73,21 @@
 				</div>
 
 				<div class="resume-column-2">
-				{foreach key=i item=project from=$projects[0]}
-					<h4>{$project->title}</h4>
+				@foreach ($projects[0] as $i => $project)
+					<h4>{{ $project->title }}</h4>
 
 					<ul class="company-info">
-						<li>{$project->company}</li>
-						<li>{$project->location}</li>
-						<li><em>{$project->dates}</em></li>
+						<li>{{ $project->company }}</li>
+						<li>{{ $project->location }}</li>
+						<li><em>{{ $project->dates }}</em></li>
 					</ul>
 
 					<ul class="resume-duty">
-				{foreach item=duty from=$project->duties[0]}
-						<li> {$duty}</li>
-				{/foreach}
+					@foreach ($project->duties[0] as $duty)
+						<li> {{ $duty }}</li>
+					@endforeach
 					</ul>
-				{/foreach}
+				@endforeach
 				</div>
 				@endif
 
@@ -99,21 +97,21 @@
 				</div>
 
 				<div class="resume-column-2">
-				{foreach key=i item=misc from=$miscellaneous[0]}
-					<h4>{$misc->title}</h4>
+				@foreach ($miscellaneous[0] as $i => $misc)
+					<h4>{{ $misc->title }}</h4>
 
 					<ul class="company-info">
-						<li>{$misc->company}</li>
-						<li>{$misc->location}</li>
-						<li><em>{$misc->dates}</em></li>
+						<li>{{ $misc->company }}</li>
+						<li>{{ $misc->location }}</li>
+						<li><em>{{ $misc->dates }}</em></li>
 					</ul>
 
 					<ul class="resume-duty">
-				{foreach item=duty from=$misc->duties[0]}
-						<li> {$duty}</li>
-				{/foreach}
+					@foreach ($misc->duties[0] as $duty)
+						<li> {{ $duty }}</li>
+					@endforeach
 					</ul>
-				{/foreach}
+				@endforeach
 				</div>
 				@endif
 
@@ -123,15 +121,15 @@
 				</div>
 
 				<div class="resume-column-2">
-				{foreach item=ed from=$education[0]}
-					<h4>{$ed->school}</h4>
+				@foreach ($education[0] as $ed)
+					<h4>{{ $ed->school }}</h4>
 
 					<ul class="company-info">
-						<li>{$ed->degree}</li>
-						<li>{$ed->location}</li>
-						<li><em>{$ed->dates}</em></li>
+						<li>{{ $ed->degree }}</li>
+						<li>{{ $ed->location }}</li>
+						<li><em>{{ $ed->dates }}</em></li>
 					</ul>
-				{/foreach}
+				@endforeach
 				</div>
 				@endif
 
@@ -141,13 +139,13 @@
 				</div>
 
 				<div class="resume-column-2">
-				{foreach item=award from=$awards[0]}
-					<h4>{$award->honor}</h4>
+				@foreach ($awards[0] as $award)
+					<h4>{{ $award->honor }}</h4>
 
 					<p>
-						{$award->contest}
+						{{ $award->contest }}
 					</p>
-				{/foreach}
+				@endforeach
 				</div>
 				@endif
 @stop

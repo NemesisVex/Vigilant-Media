@@ -50,6 +50,37 @@ class HomeController extends BaseController {
 	{
 		$page_variables = array();
 		
+		$resume_path = $_SERVER['DOCUMENT_ROOT'] . '/content/resume.xml';
+		if (false !== ($fp = @fopen($resume_path, 'r')))
+		{
+			$resume_input = fread($fp, filesize($resume_path));
+			fclose($fp);
+		}
+		$resume_xml = simplexml_load_string($resume_input);
+
+		$contact = $resume_xml->xpath('/resume/contact');
+		$professional = $resume_xml->xpath('/resume/experience[@type="professional"]');
+		$miscellaneous = $resume_xml->xpath('/resume/experience[@type="miscellaneous"]');
+		$education = $resume_xml->xpath('/resume/experience[@type="education"]');
+		$projects = $resume_xml->xpath('/resume/experience[@type="projects"]');
+		$skills = $resume_xml->xpath('/resume/experience[@type="skills"]');
+		$summary = $resume_xml->xpath('/resume/experience[@type="summary"]');
+		
+		foreach ($skills[0] as $entry) {
+			$skill_list = (array) $entry->skills->skill;
+			$entry->skill_list = implode(', ', $skill_list);
+		}
+		
+		$page_variables = array(
+			'contact' => $contact,
+			'professional' => $professional,
+			'miscellaneous' => $miscellaneous,
+			'education' => $education,
+			'projects' => $projects,
+			'skills' => $skills,
+			'summary' => $summary,
+		);
+		
 		$data = array_merge($page_variables, $this->layout_variables);
 		return View::make('resume', $data);
 	}
@@ -60,6 +91,14 @@ class HomeController extends BaseController {
 		
 		$data = array_merge($page_variables, $this->layout_variables);
 		return View::make('contact', $data);
+	}
+	
+	public function contact_sent()
+	{
+		$page_variables = array();
+		
+		$data = array_merge($page_variables, $this->layout_variables);
+		return View::make('contact_sent', $data);
 	}
 	
 }

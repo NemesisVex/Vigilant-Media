@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="{{{ $vigilantmedia_cdn_uri }}}/web/css/facebox.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="/css/typography.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="/css/layout.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="/css/mobile.css" type="text/css" media="screen and (max-width: 600px)" />
+		<link rel="stylesheet" href="/css/mobile.css" type="text/css" media="screen and (max-width: 768px)" />
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="{{{ $vigilantmedia_cdn_uri }}}/web/js/modernizr-1.6.min.js"></script>
