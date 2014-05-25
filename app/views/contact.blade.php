@@ -40,7 +40,7 @@
 					{{ Form::close() }}
 				</div>
 
-				<script type="text/javascript" src="{{{ $vigilantmedia_cdn_uri }}}/web/js/jquery.validate.pack.js"></script>
+				<script type="text/javascript" src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/js/jquery.validate.pack.js"></script>
 				<script type="text/javascript">
 				$(function ()
 				{

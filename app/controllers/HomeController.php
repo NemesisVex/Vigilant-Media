@@ -19,9 +19,9 @@ class HomeController extends BaseController {
 	
 	public function __construct()
 	{
+		global $config_url_base;
 		$this->layout_variables = array(
-			'vigilantmedia_cdn_uri' => VIGILANTMEDIA_CDN_BASE_URI,
-			'copyright_year' => date('Y'),
+			'config_url_base' => $config_url_base,
 		);
 	}
 
