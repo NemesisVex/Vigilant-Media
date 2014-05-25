@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('content')
-				<script type="text/javascript" src="{{{ $vigilantmedia_cdn_uri }}}/web/js/facebox.js"></script>
+				<script type="text/javascript" src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/js/facebox.js"></script>
 				<script type="text/javascript">
 				var facebox_options = {
-					closeImage: '{{ $vigilantmedia_cdn_uri }}/web/images/closelabel.gif',
-					loadingImage: '{{ $vigilantmedia_cdn_uri }}/web/images/loading.gif'
+					closeImage: '{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/images/closelabel.gif',
+					loadingImage: '{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/images/loading.gif'
 				};
 				$(function () {
 					$('a[rel*=facebox]').facebox(facebox_options);
@@ -20,38 +20,41 @@
 					<header>
 						<h2>Current</h2>
 					</header>
+					
+					<div class="row">
+						<article class="two-column-single col-md-6">
 
-					<article class="two-column-single">
+							<h3><a href="https://bitbucket.org/observantrecords/profile/repositories">Observant Records Network</a></h3>
 
-						<h3><a href="https://bitbucket.org/observantrecords/profile/repositories">Observant Records Network</a></h3>
+							<a href="https://bitbucket.org/observantrecords/profile/repositories"><img src="/images/observant_records_o_square_logo.png" class="img-align-right" alt="[Observant Records]" title="[Observant Records]" width="128" /></a>
 
-						<a href="https://bitbucket.org/observantrecords/profile/repositories"><img src="/images/observant_records_o_square_logo.png" class="img-align-right" alt="[Observant Records]" title="[Observant Records]" width="128" /></a>
+							<p>Drupal powers the official sites of my various music projects, including <a href="http://observantrecords.com/">Observant Records</a>, <a href="http://eponymous4.com/">Eponymous 4</a>, <a href="http://emptyensemble.com/">Empty Ensemble</a> and <a href="http://shinkyokuadvocacy.com/">Shinkyoku Advocacy</a>.</p>
 
-						<p>Drupal powers the official sites of my various music projects, including <a href="http://observantrecords.com/">Observant Records</a>, <a href="http://eponymous4.com/">Eponymous 4</a>, <a href="http://emptyensemble.com/">Empty Ensemble</a> and <a href="http://shinkyokuadvocacy.com/">Shinkyoku Advocacy</a>.</p>
-						
-						<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector">custom-built Drupal module</a>, while Amazon Cloudfront provides audio content.</p>
-						
-						<p><a href="http://gocartdv.com/">GoCart</a> runs the <a href="https://bitbucket.org/observantrecords/observant-records-shop">Observant Records Shop</a>.</p>
-						
-						<p>The source code for the network is available to view on <a href="https://bitbucket.org/observantrecords/profile/repositories">Bitbucket</a> or <a href="https://github.com/observantrecords?tab=repositories">Github</a>.</p>
+							<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector">custom-built Drupal module</a>, while Amazon Cloudfront provides audio content.</p>
 
-					</article>
+							<p><a href="http://gocartdv.com/">GoCart</a> runs the <a href="https://bitbucket.org/observantrecords/observant-records-shop">Observant Records Shop</a>.</p>
 
-					<article class="two-column-single-last">
+							<p>The source code for the network is available to view on <a href="https://bitbucket.org/observantrecords/profile/repositories">Bitbucket</a> or <a href="https://github.com/observantrecords?tab=repositories">Github</a>.</p>
 
-						<h3><a href="https://bitbucket.org/NemesisVex/profile/repositories">Vigilant Media Network</a></h3>
+						</article>
 
-						<a href="https://bitbucket.org/NemesisVex/profile/repositories"><img src="/images/wordpress-logo-notext-rgb.png" class="img-align-right" alt="[Wordpress]" title="[Wordpress]" width="128" /></a>
+						<article class="two-column-single-last col-md-6">
 
-						<p>The Vigilant Media Network is a set of personal web projects run on Wordpress or built with frameworks such as CodeIgniter and Laravel.</p>
-						
-						<p><a href="http://archive.musicwhore.org/">Musicwhore.org Archive</a> is a Wordpress blog with a <a href="https://bitbucket.org/NemesisVex/musicwhore-artist-connector-for-wordpress">custom plugin</a> that connects to an external database and the Amazon Affiliate Marketing API.</p>
-						
-						<p><a href="https://bitbucket.org/NemesisVex/movable-type-id-mapper-for-wordpress">Another plugin</a> maps Movable Type entry IDs with posts imported into Wordpress.</p>
-						
-						<p>The source code for the network is available to view on <a href="https://bitbucket.org/NemesisVex/profile/repositories">Bitbucket</a> or <a href="https://github.com/NemesisVex?tab=repositories">Github</a>.</p>
+							<h3><a href="https://bitbucket.org/NemesisVex/profile/repositories">Vigilant Media Network</a></h3>
 
-					</article>
+							<a href="https://bitbucket.org/NemesisVex/profile/repositories"><img src="/images/wordpress-logo-notext-rgb.png" class="img-align-right" alt="[Wordpress]" title="[Wordpress]" width="128" /></a>
+
+							<p>The Vigilant Media Network is a set of personal web projects run on Wordpress or built with frameworks such as CodeIgniter and Laravel.</p>
+
+							<p><a href="http://archive.musicwhore.org/">Musicwhore.org Archive</a> is a Wordpress blog with a <a href="https://bitbucket.org/NemesisVex/musicwhore-artist-connector-for-wordpress">custom plugin</a> that connects to an external database and the Amazon Affiliate Marketing API.</p>
+
+							<p><a href="https://bitbucket.org/NemesisVex/movable-type-id-mapper-for-wordpress">Another plugin</a> maps Movable Type entry IDs with posts imported into Wordpress.</p>
+
+							<p>The source code for the network is available to view on <a href="https://bitbucket.org/NemesisVex/profile/repositories">Bitbucket</a> or <a href="https://github.com/NemesisVex?tab=repositories">Github</a>.</p>
+
+						</article>
+					</div>
+
 				</section>
 
 				<section id="past" class="full-column-last">
@@ -59,8 +62,8 @@
 						<h2>Past</h2>
 					</header>
 
-					<div class="three-columns">
-						<article class="three-column-single">
+					<div class="three-columns row">
+						<article class="three-column-single col-md-4">
 							<p class="centered"><a href="/images/_full_vm_folio_uw_limited_submissions.jpg" rel="facebox"><img src="/images/vm_folio_uw_limited_submissions.jpg" alt="[University of Washington Research Limited Submissions]" title="[University of Washington Research Limited Submissions]" class="folio-image" /></a></p>
 
 							<h3>University of Washington Research Limited Submissions</h3>
@@ -70,7 +73,7 @@
 							<p>The design and functionality of the original site had not been updated in a number of years, so for this project, I worked primarily on the controllers and models for the public-facing site and a new administration interface.</p>
 						</article>
 
-						<article class="three-column-single">
+						<article class="three-column-single col-md-4">
 							<p class="centered"><a href="/images/_full_vm_folio_epicom_cases_portal_v02.jpg" rel="facebox"><img src="/images/vm_folio_epicom_cases_portal_v02.jpg" alt="[Epicom Cases Portal]" title="[Epicom Cases Portal]" class="folio-image" /></a></p>
 
 							<h3>SugarCRM: Cases Portal</h3>
@@ -84,7 +87,7 @@
 							<p>Find out more about this project from the <a href="http://www.epicom.com/product_catalog/support-portal">Epicom web site</a>.</p>
 						</article>
 
-						<article class="three-column-single-last">
+						<article class="three-column-single-last col-md-4">
 							<p class="centered"><a href="/images/_full_vm_folio_mt_force_preview_plugin.jpg" rel="facebox"><img src="/images/vm_folio_mt_force_preview_plugin.jpg" alt="[Movable Type Force Preview Plugin]" title="[Movable Type Force Preview Plugin]" class="folio-image" /></a></p>
 
 							<h3>Movable Type Force Preview plugin</h3>
@@ -95,8 +98,8 @@
 						</article>
 					</div>
 
-					<div class="three-columns">
-						<article class="three-column-single">
+					<div class="three-columns row">
+						<article class="three-column-single col-md-4">
 							<p class="centered"><a href="/images/_full_vm_folio_ni_processdocs.jpg" rel="facebox"><img src="/images/vm_folio_ni_processdocs.jpg" alt="[NI Tech Comm Process Documents]" title="[NI Tech Comm Process Documents]" class="folio-image" /></a></p>
 
 							<h3>NI Tech Comm: Process Documents Portal</h3>
@@ -108,7 +111,7 @@
 							<p>So I built a management tool that stored the process documents in a database from which static HTML files were generated.</p>
 						</article>
 
-						<article class="three-column-single">
+						<article class="three-column-single col-md-4">
 							<p class="centered"><a href="/images/_full_vm_folio_ni_l10n_manager.jpg" rel="facebox"><img src="/images/vm_folio_ni_l10n_manager.jpg" alt="[NI Tech Comm Localization Project Manager]" title="[NI Tech Comm Localization Project Manager]" class="folio-image" /></a></p>
 
 							<h3>NI Tech Comm: Localization Project Manager</h3>
@@ -121,7 +124,7 @@
 
 						</article>
 
-						<article class="three-column-single-last">
+						<article class="three-column-single-last col-md-4">
 							<p class="centered"><a href="/images/_full_vm_folio_ni_icon_glossary.jpg" rel="facebox"><img src="/images/vm_folio_ni_icon_glossary.jpg" alt="[NI Icon Glossary]" title="[NI Icon Glossary]" class="folio-image" /></a></p>
 
 							<h3>NI Tech Comm: Icon Glossary</h3>

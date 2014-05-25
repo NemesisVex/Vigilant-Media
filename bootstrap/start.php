@@ -25,6 +25,9 @@ $app = new Illuminate\Foundation\Application;
 */
 
 require_once(dirname(__FILE__) . '/../../../vigilantmedia.com/vigilante/includes/env.php');
+require_once(dirname(__FILE__) . '/../../../vigilantmedia.com/vigilante/includes/global.php');
+
+global $config_url_base;
 
 $env = $app->detectEnvironment(function () {
 	return ENVIRONMENT;
