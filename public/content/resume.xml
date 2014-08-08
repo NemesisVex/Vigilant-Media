@@ -173,7 +173,17 @@
 		</entry>
 	</experience>
 	<experience type="projects">
-		<entry num="1">
+        <entry num="1">
+            <title>Contributor</title>
+            <company>WordPress</company>
+            <location>Seattle, WA</location>
+            <dates>2014 - present</dates>
+            <duties>
+                <duty>Edit WordPress Plugin Handbook.</duty>
+            </duties>
+            <url>http://make.wordpress.org/docs/plugin-developer-handbook/</url>
+        </entry>
+		<entry num="2">
 			<title>Webmaster/Publisher</title>
 			<company>Musicwhore.org</company>
 			<location>Seattle, WA</location>
@@ -184,16 +194,6 @@
 			<url>http://www.musicwhore.org/</url>
 		</entry>
 		<!--
-		<entry num="2">
-			<title>Webmaster</title>
-			<company>Eponymous 4</company>
-			<location>Seattle, WA</location>
-			<dates>2005 - present</dates>
-			<duties>
-				<duty>Develop and maintain proprietary content management system to deliver news and audio for solo music project.</duty>
-			</duties>
-			<url>http://www.eponymous4.com/</url>
-		</entry>
 		<entry num="3">
 			<title>Webmaster</title>
 			<company>Austin Stories</company>
