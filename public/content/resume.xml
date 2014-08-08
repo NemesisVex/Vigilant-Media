@@ -10,7 +10,7 @@
 	<experience type="summary">
 		<entry num="1">
 			<items>
-				<item>PHP developer with experience in Wordpress, Laravel, CodeIgniter and Drupal.</item>
+				<item>PHP developer with experience in WordPress, Laravel, CodeIgniter and Drupal.</item>
 				<item>Background in journalism and writing easily applied to documentation.</item>
 			</items>
 		</entry>
@@ -189,7 +189,7 @@
 			<location>Seattle, WA</location>
 			<dates>2000 - present</dates>
 			<duties>
-				<duty>Publish and maintain interactive music webzine integrating Movable Type and Musicbrainz. Migrated to Wordpress in 2012.</duty>
+				<duty>Publish and maintain interactive music webzine integrating Movable Type and Musicbrainz. Migrated to WordPress in 2012.</duty>
 			</duties>
 			<url>http://www.musicwhore.org/</url>
 		</entry>
