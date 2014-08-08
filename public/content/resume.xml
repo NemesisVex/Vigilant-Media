@@ -10,7 +10,7 @@
 	<experience type="summary">
 		<entry num="1">
 			<items>
-				<item>PHP developer with experience in Wordpress, Laravel, CodeIgniter and Drupal.</item>
+				<item>PHP developer with experience in WordPress, Laravel, CodeIgniter and Drupal.</item>
 				<item>Background in journalism and writing easily applied to documentation.</item>
 			</items>
 		</entry>
@@ -173,27 +173,27 @@
 		</entry>
 	</experience>
 	<experience type="projects">
-		<entry num="1">
+        <entry num="1">
+            <title>Contributor</title>
+            <company>WordPress</company>
+            <location>Seattle, WA</location>
+            <dates>2014 - present</dates>
+            <duties>
+                <duty>Edit WordPress Plugin Handbook.</duty>
+            </duties>
+            <url>http://make.wordpress.org/docs/plugin-developer-handbook/</url>
+        </entry>
+		<entry num="2">
 			<title>Webmaster/Publisher</title>
 			<company>Musicwhore.org</company>
 			<location>Seattle, WA</location>
 			<dates>2000 - present</dates>
 			<duties>
-				<duty>Publish and maintain interactive music webzine integrating Movable Type and Musicbrainz. Migrated to Wordpress in 2012.</duty>
+				<duty>Publish and maintain interactive music webzine integrating Movable Type and Musicbrainz. Migrated to WordPress in 2012.</duty>
 			</duties>
 			<url>http://www.musicwhore.org/</url>
 		</entry>
 		<!--
-		<entry num="2">
-			<title>Webmaster</title>
-			<company>Eponymous 4</company>
-			<location>Seattle, WA</location>
-			<dates>2005 - present</dates>
-			<duties>
-				<duty>Develop and maintain proprietary content management system to deliver news and audio for solo music project.</duty>
-			</duties>
-			<url>http://www.eponymous4.com/</url>
-		</entry>
 		<entry num="3">
 			<title>Webmaster</title>
 			<company>Austin Stories</company>
