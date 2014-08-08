@@ -19,28 +19,29 @@
 	</head>
 	<body>
 		<div id="masthead">
-			<div class="container" class="container">
-				<div class="row">
-					<header id="masthead-title" class="col-md-6">
-						<hgroup class>
-							<h1 id="title">
-								<a href="/">Vigilant Media</a>
-							</h1>
-							<h2 id="subtitle">The online portfolio of Greg Bueno</h2>
-						</hgroup>
-					</header>
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#vm-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="/">Vigilant Media</a>
+					</div>
 
-					<nav id="nav-main" class="col-md-6">
-						<ul>
-							<li class="active"><a href="/">Home</a></li>
+					<div class="collapse navbar-collapse" id="vm-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="/">Home</a></li>
 							<li><a href="/projects/">Projects</a></li>
 							<li><a href="/resume/">Résumé</a></li>
 							<li><a href="{{ $config_url_base['to_wp'] }}/">Blog</a></li>
 							<li><a href="/contact/">Contact</a></li>
 						</ul>
-					</nav>
+					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
 
 		<div id="content">
