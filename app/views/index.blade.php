@@ -3,11 +3,11 @@
 @section('content')
 				<div class="row">
 					<section id="introduction" class="col-md-12">
-						<p>I started out as a content producer for the newspaper industry in 1997, then retrained to become a web application developer in 1999.</p>
+						<p class="lead">I started out as a content producer for the newspaper industry in 1997, then retrained to become a web application developer in 1999.</p>
 
 						<p>I work primarily in server-side web application development, but if need be, I can throw together a user interface.</p>
 
-						<p>My first sites were built with a custom-made content management system, which I later migrated to <a href="http://ellislab.com/codeigniter">CodeIgniter</a>. These days, I'm more likely to work with <a href="http://wordpress.org/">Wordpress</a> and <a href="http://drupal.org/">Drupal</a>.</p>
+						<p>My first sites were built with a custom-made content management system, which I later migrated to <a href="http://ellislab.com/codeigniter">CodeIgniter</a>. These days, I'm more likely to work with <a href="http://wordpress.org/">Wordpress</a>, <a href="http://laravel.com/">Laravel</a> and <a href="http://drupal.org/">Drupal</a>.</p>
 
 						<p>Other applications I've worked with include <a href="http://sugarcrm.com/">SugarCRM</a> and <a href="http://movabletype.org/">Movable Type</a>.</p>
 					</section>
