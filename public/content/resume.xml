@@ -10,7 +10,7 @@
 	<experience type="summary">
 		<entry num="1">
 			<items>
-				<item>PHP developer with experience in CodeIgniter, Wordpress and Drupal.</item>
+				<item>PHP developer with experience in WordPress, Laravel, CodeIgniter and Drupal.</item>
 				<item>Background in journalism and writing easily applied to documentation.</item>
 			</items>
 		</entry>
@@ -27,16 +27,16 @@
 		</entry>
 		<entry num="2" type="Additional languages">
 			<skills>
+                <skill>C#</skill>
 				<skill>PERL</skill>
-				<skill>C#</skill>
 			</skills>
 		</entry>
 		<entry num="3" type="Development tools">
 			<skills>
-				<skill>Netbeans</skill>
-				<skill>Apache</skill>
+				<skill>PHPStorm</skill>
 				<skill>Git</skill>
 				<skill>Mercurial</skill>
+                <skill>Apache</skill>
 			</skills>
 		</entry>
 	</experience>
@@ -100,6 +100,15 @@
 		</entry>
 	</experience>
 	<experience type="miscellaneous">
+        <entry num="1">
+            <title>Member</title>
+            <company>Penzias and Wilson</company>
+            <location>Seattle, WA</location>
+            <dates>2014 - present</dates>
+            <duties>
+                <duty>A spin-off project from Eponymous 4 focusing on instrumental independent rock music.</duty>
+            </duties>
+        </entry>
 		<entry num="1">
 			<title>Member</title>
 			<company>Empty Ensemble</company>
@@ -124,7 +133,7 @@
 			<location>Seattle, WA</location>
 			<dates>2008 - present</dates>
 			<duties>
-				<duty>Runs record label exclusively handling Eponymous 4 and Empty Ensemble.</duty>
+				<duty>Runs record label exclusively handling Eponymous 4, Empty Ensemble and Penzias and Wilson.</duty>
 				<duty>Develop proprietary content management system to maintain discography and audio.</duty>
 			</duties>
 		</entry>
@@ -134,7 +143,7 @@
 			<location>Seattle, WA</location>
 			<dates>2008 - present</dates>
 			<duties>
-				<duty>Handles publishing rights of songs by Eponymous 4 and Empty Ensemble.</duty>
+				<duty>Handles publishing rights of songs by Eponymous 4, Empty Ensemble and Penzias and Wilson.</duty>
 				<duty>Member of ASCAP.</duty>
 			</duties>
 		</entry>
@@ -164,7 +173,17 @@
 		</entry>
 	</experience>
 	<experience type="projects">
-		<entry num="1">
+        <entry num="1">
+            <title>Contributor</title>
+            <company>WordPress Documentation</company>
+            <location>Seattle, WA</location>
+            <dates>2014 - present</dates>
+            <duties>
+                <duty>Edit WordPress Plugin Handbook.</duty>
+            </duties>
+            <url>http://make.wordpress.org/docs/plugin-developer-handbook/</url>
+        </entry>
+		<entry num="2">
 			<title>Webmaster/Publisher</title>
 			<company>Musicwhore.org</company>
 			<location>Seattle, WA</location>
@@ -174,28 +193,6 @@
 			</duties>
 			<url>http://www.musicwhore.org/</url>
 		</entry>
-		<!--
-		<entry num="2">
-			<title>Webmaster</title>
-			<company>Eponymous 4</company>
-			<location>Seattle, WA</location>
-			<dates>2005 - present</dates>
-			<duties>
-				<duty>Develop and maintain proprietary content management system to deliver news and audio for solo music project.</duty>
-			</duties>
-			<url>http://www.eponymous4.com/</url>
-		</entry>
-		<entry num="3">
-			<title>Webmaster</title>
-			<company>Austin Stories</company>
-			<location>Austin, TX</location>
-			<dates>2003 - present</dates>
-			<duties>
-				<duty>Created content aggregator for Austin-based online writers, including a user account system.</duty>
-			</duties>
-			<url>http://www.austin-stories.com/</url>
-		</entry>
-		-->
 	</experience>
 	<!--
 	<experience type="awards">
