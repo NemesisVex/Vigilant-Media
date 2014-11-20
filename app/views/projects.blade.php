@@ -44,9 +44,9 @@
 
 							<a href="https://bitbucket.org/NemesisVex/profile/repositories"><img src="/images/wordpress-logo-notext-rgb.png" class="img-align-right" alt="[Wordpress]" title="[Wordpress]" width="128" /></a>
 
-							<p>The Vigilant Media Network is a set of personal web projects run on Wordpress or built with frameworks such as CodeIgniter and Laravel.</p>
+							<p>The Vigilant Media Network is a set of personal web projects run on WordPress or built with frameworks such as CodeIgniter and Laravel.</p>
 
-							<p><a href="http://archive.musicwhore.org/">Musicwhore.org Archive</a> is a Wordpress blog with a <a href="https://bitbucket.org/NemesisVex/musicwhore-artist-connector-for-wordpress">custom plugin</a> that connects to an <a href="https://bitbucket.org/NemesisVex/musicwhore.org-administration">external database</a> and the Amazon Affiliate Marketing API.</p>
+							<p><a href="http://archive.musicwhore.org/">Musicwhore.org Archive</a> is a WordPress blog with a <a href="https://bitbucket.org/NemesisVex/musicwhore-artist-connector-for-wordpress">custom plugin</a> that connects to an <a href="https://bitbucket.org/NemesisVex/musicwhore.org-administration">external database</a> and the Amazon Affiliate Marketing API.</p>
 
 							<p><a href="https://bitbucket.org/NemesisVex/movable-type-id-mapper-for-wordpress">Another plugin</a> maps Movable Type entry IDs with posts imported into Wordpress.</p>
 
