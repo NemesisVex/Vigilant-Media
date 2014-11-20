@@ -28,9 +28,9 @@
 
 							<a href="https://bitbucket.org/observantrecords/profile/repositories"><img src="/images/observant_records_o_square_logo.png" class="img-align-right" alt="[Observant Records]" title="[Observant Records]" width="128" /></a>
 
-							<p>Drupal powers the official sites of my various music projects, including <a href="http://observantrecords.com/">Observant Records</a>, <a href="http://eponymous4.com/">Eponymous 4</a>, <a href="http://emptyensemble.com/">Empty Ensemble</a> and <a href="http://shinkyokuadvocacy.com/">Shinkyoku Advocacy</a>.</p>
+							<p>WordPress powers the official sites of my various music projects, including <a href="http://observantrecords.com/">Observant Records</a>, <a href="http://eponymous4.com/">Eponymous 4</a>, <a href="http://emptyensemble.com/">Empty Ensemble</a> and <a href="http://shinkyokuadvocacy.com/">Shinkyoku Advocacy</a>.</p>
 
-							<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector">custom-built Drupal module</a>, while Amazon Cloudfront provides audio content.</p>
+							<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector-for-wordpress">custom-built WordPress plug-in</a>, while Amazon Cloudfront provides audio content.</p>
 
 							<p><a href="http://gocartdv.com/">GoCart</a> runs the <a href="https://bitbucket.org/observantrecords/observant-records-shop">Observant Records Shop</a>.</p>
 
@@ -46,7 +46,7 @@
 
 							<p>The Vigilant Media Network is a set of personal web projects run on Wordpress or built with frameworks such as CodeIgniter and Laravel.</p>
 
-							<p><a href="http://archive.musicwhore.org/">Musicwhore.org Archive</a> is a Wordpress blog with a <a href="https://bitbucket.org/NemesisVex/musicwhore-artist-connector-for-wordpress">custom plugin</a> that connects to an external database and the Amazon Affiliate Marketing API.</p>
+							<p><a href="http://archive.musicwhore.org/">Musicwhore.org Archive</a> is a Wordpress blog with a <a href="https://bitbucket.org/NemesisVex/musicwhore-artist-connector-for-wordpress">custom plugin</a> that connects to an <a href="https://bitbucket.org/NemesisVex/musicwhore.org-administration">external database</a> and the Amazon Affiliate Marketing API.</p>
 
 							<p><a href="https://bitbucket.org/NemesisVex/movable-type-id-mapper-for-wordpress">Another plugin</a> maps Movable Type entry IDs with posts imported into Wordpress.</p>
 
