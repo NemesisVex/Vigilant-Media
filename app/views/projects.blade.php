@@ -32,8 +32,6 @@
 
 							<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector-for-wordpress">custom-built WordPress plug-in</a>, while Amazon Cloudfront provides audio content.</p>
 
-							<p><a href="http://gocartdv.com/">GoCart</a> runs the <a href="https://bitbucket.org/observantrecords/observant-records-shop">Observant Records Shop</a>.</p>
-
 							<p>The source code for the network is available to view on <a href="https://bitbucket.org/observantrecords/profile/repositories">Bitbucket</a> or <a href="https://github.com/observantrecords?tab=repositories">Github</a>.</p>
 
 						</article>
