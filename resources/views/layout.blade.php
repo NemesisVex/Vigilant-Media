@@ -35,7 +35,7 @@
 							<li><a href="/">Home</a></li>
 							<li><a href="/projects/">Projects</a></li>
 							<li><a href="/resume/">Résumé</a></li>
-							<li><a href="{{ $config_url_base['to_wp'] }}/">Blog</a></li>
+							<li><a href="{{ config( 'global.url_base.to_wp' ) }}/">Blog</a></li>
 							<li><a href="/contact/">Contact</a></li>
 						</ul>
 					</div>
