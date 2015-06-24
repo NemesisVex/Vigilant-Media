@@ -1,0 +1,227 @@
+/* 
+    Created on : May 24, 2014, 8:29:12 PM
+    Author     : gregbueno
+*/
+@font-face {
+  font-family: "Novecentowide";
+  src: url("fonts/Novecentowide-Bold-webfont.eot");
+  src: url("fonts/Novecentowide-Bold-webfont.eot?iefix") format("eot"), url("fonts/Novecentowide-Bold-webfont.woff") format("woff"), url("fonts/Novecentowide-Bold-webfont.ttf") format("truetype"), url("fonts/Novecentowide-Bold-webfont.svg#webfont") format("svg");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Novecentowide";
+  src: url("fonts/Novecentowide-Book-webfont.eot");
+  src: url("fonts/Novecentowide-Book-webfont.eot?iefix") format("eot"), url("fonts/Novecentowide-Book-webfont.woff") format("woff"), url("fonts/Novecentowide-Book-webfont.ttf") format("truetype"), url("fonts/Novecentowide-Book-webfont.svg#webfont") format("svg");
+}
+a {
+  color: #904848;
+}
+a:hover {
+  color: #906948;
+}
+a:visited {
+  color: #743A5B;
+}
+#introduction {
+  font-size: 120%;
+}
+#masthead,
+#masthead h2 {
+  color: #FFF;
+}
+#nav-main li a {
+  color: #FFF;
+  text-decoration: none;
+}
+#nav-main li a:hover {
+  text-decoration: underline;
+}
+#subtitle {
+  font-size: 85%;
+  margin-top: 0;
+}
+#title {
+  font-family: Novecentowide, Helvetica, Arial, sans-serif;
+  font-size: 375%;
+  margin-top: 0;
+}
+#title a {
+  text-decoration: none;
+  color: #FFF;
+}
+.button {
+  font-size: 120%;
+  text-decoration: none;
+  color: #FFF;
+}
+.button:hover,
+.button:visited {
+  color: #FFF;
+}
+.navbar-default .navbar-brand {
+  font-family: Novecentowide, Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  color: #FFF;
+}
+.navbar-default .navbar-brand:hover {
+  color: #FFF;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #FFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #AAA;
+}
+.three-column-single header h3 a,
+.three-column-single-last header h3 a {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .navbar-default .navbar-brand {
+    font-size: 20px;
+  }
+}
+/* 
+    Created on : May 24, 2014, 8:24:20 PM
+    Author     : gregbueno
+*/
+input[type=text],
+input[type=email],
+textarea {
+  border-radius: 4px;
+  padding: 3px;
+}
+label {
+  float: left;
+  width: 150px;
+  margin-right: 10px;
+}
+ul.company-info {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+}
+#contact {
+  text-align: center;
+}
+#introduction,
+#contact {
+  margin-bottom: 1.5em;
+}
+#masthead {
+  padding-bottom: 0;
+  margin-bottom: 1.5em;
+  background-color: #904848;
+  background-image: linear-gradient(bottom, #904848, #c89191 80px);
+  background-image: -o-linear-gradient(bottom, #904848, #c89191 80px);
+  background-image: -moz-linear-gradient(bottom, #904848, #c89191 80px);
+  background-image: -webkit-linear-gradient(top, #904848, #c89191 80px);
+  background-image: -ms-linear-gradient(bottom, #904848, #c89191 80px);
+  color: #FFF;
+}
+#masthead-title {
+  margin-top: 1.5em;
+}
+#nav-main {
+  margin-top: 1.5em;
+}
+#nav-main ul {
+  list-style-type: none;
+}
+#nav-main ul li {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 3px 9px;
+}
+#panels {
+  margin-bottom: 3em;
+}
+#title {
+  margin-bottom: 0.1em;
+}
+.button {
+  padding: 4px 10px 4px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background-color: #304B75;
+  cursor: pointer;
+}
+.centered {
+  text-align: center;
+}
+.folio-image {
+  border: 3px solid #A7A7A7;
+  border-radius: 4px;
+}
+.form-hidden {
+  display: none;
+}
+.four-column-single {
+  border-right: 1px solid #CBCBCB;
+}
+.full-column-last {
+  margin-bottom: 1.5em;
+}
+.img-align-right {
+  float: right;
+  margin-left: 10px;
+}
+.navbar-default {
+  padding-bottom: 0;
+  margin-bottom: 1.5em;
+  background-color: #904848;
+  background-image: linear-gradient(bottom, #904848, #c89191 80px);
+  background-image: -o-linear-gradient(bottom, #904848, #c89191 80px);
+  background-image: -moz-linear-gradient(bottom, #904848, #c89191 80px);
+  background-image: -webkit-linear-gradient(top, #904848, #c89191 80px);
+  background-image: -ms-linear-gradient(bottom, #904848, #c89191 80px);
+  color: #FFF;
+}
+.nav-social {
+  list-style-type: none;
+}
+.nav-social li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.resume-column-1 {
+  padding-top: 1.5em;
+  border-top: 1px solid #CCC;
+}
+.resume-column-1 h2 {
+  margin-top: 0;
+}
+.resume-column-2 {
+  padding-top: 1.5em;
+  border-top: 1px solid #CCC;
+}
+.resume-column-2 h2 {
+  margin-top: 0;
+}
+.resume-skills li {
+  float: left;
+  margin-right: 24px;
+}
+.three-column-single {
+  border-right: 1px solid #CBCBCB;
+}
+.three-columns {
+  margin-bottom: 3em;
+}
+.two-column-single {
+  border-right: 1px solid #CBCBCB;
+}
+@media screen and (max-width: 768px) {
+  #nav-main ul {
+    list-style-type: none;
+  }
+  #nav-main ul li {
+    display: block;
+  }
+}
