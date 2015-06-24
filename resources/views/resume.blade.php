@@ -65,7 +65,7 @@
 
 						<ul class="resume-duty">
 						@foreach ($pro->duties[0] as $duty)
-							<li>{{ $duty }}</li>
+							<li>{!! $duty !!}</li>
 						@endforeach
 						</ul>
 					@endforeach
