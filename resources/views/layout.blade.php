@@ -9,8 +9,7 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/css/facebox.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="/css/typography.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="/css/layout.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>		
