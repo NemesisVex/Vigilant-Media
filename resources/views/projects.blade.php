@@ -26,7 +26,7 @@
 
 							<h3><a href="https://bitbucket.org/observantrecords/profile/repositories">Observant Records Network</a></h3>
 
-							<a href="https://bitbucket.org/observantrecords/profile/repositories"><img src="/images/observant_records_o_square_logo.png" class="img-align-right" alt="[Observant Records]" title="[Observant Records]" width="128" /></a>
+							<a href="https://bitbucket.org/observantrecords/profile/repositories"><img src="/assets/images/observant_records_o_square_logo.png" class="img-align-right" alt="[Observant Records]" title="[Observant Records]" width="128" /></a>
 
 							<p>WordPress powers the official sites of my various music projects, including <a href="http://observantrecords.com/">Observant Records</a>, <a href="http://eponymous4.com/">Eponymous 4</a>, <a href="http://emptyensemble.com/">Empty Ensemble</a> and <a href="http://shinkyokuadvocacy.com/">Shinkyoku Advocacy</a>.</p>
 
@@ -42,7 +42,7 @@
 
 							<h3><a href="https://bitbucket.org/NemesisVex/profile/repositories">Vigilant Media Network</a></h3>
 
-							<a href="https://bitbucket.org/NemesisVex/profile/repositories"><img src="/images/wordpress-logo-notext-rgb.png" class="img-align-right" alt="[Wordpress]" title="[Wordpress]" width="128" /></a>
+							<a href="https://bitbucket.org/NemesisVex/profile/repositories"><img src="/assets/images/wordpress-logo-notext-rgb.png" class="img-align-right" alt="[Wordpress]" title="[Wordpress]" width="128" /></a>
 
 							<p>The Vigilant Media Network is a set of personal web projects run on WordPress or built with frameworks such as CodeIgniter and Laravel.</p>
 
@@ -64,7 +64,7 @@
 
 					<div class="three-columns row">
 						<article class="three-column-single col-md-4">
-							<p class="centered"><a href="/images/_full_vm_folio_uw_limited_submissions.jpg" rel="facebox"><img src="/images/vm_folio_uw_limited_submissions.jpg" alt="[University of Washington Research Limited Submissions]" title="[University of Washington Research Limited Submissions]" class="folio-image" /></a></p>
+							<p class="centered"><a href="/assets/images/_full_vm_folio_uw_limited_submissions.jpg" rel="facebox"><img src="/assets/images/vm_folio_uw_limited_submissions.jpg" alt="[University of Washington Research Limited Submissions]" title="[University of Washington Research Limited Submissions]" class="folio-image" /></a></p>
 
 							<h3>University of Washington Research Limited Submissions</h3>
 							
@@ -74,7 +74,7 @@
 						</article>
 
 						<article class="three-column-single col-md-4">
-							<p class="centered"><a href="/images/_full_vm_folio_epicom_cases_portal_v02.jpg" rel="facebox"><img src="/images/vm_folio_epicom_cases_portal_v02.jpg" alt="[Epicom Cases Portal]" title="[Epicom Cases Portal]" class="folio-image" /></a></p>
+							<p class="centered"><a href="/assets/images/_full_vm_folio_epicom_cases_portal_v02.jpg" rel="facebox"><img src="/assets/images/vm_folio_epicom_cases_portal_v02.jpg" alt="[Epicom Cases Portal]" title="[Epicom Cases Portal]" class="folio-image" /></a></p>
 
 							<h3>SugarCRM: Cases Portal</h3>
 
@@ -88,7 +88,7 @@
 						</article>
 
 						<article class="three-column-single-last col-md-4">
-							<p class="centered"><a href="/images/_full_vm_folio_mt_force_preview_plugin.jpg" rel="facebox"><img src="/images/vm_folio_mt_force_preview_plugin.jpg" alt="[Movable Type Force Preview Plugin]" title="[Movable Type Force Preview Plugin]" class="folio-image" /></a></p>
+							<p class="centered"><a href="/assets/images/_full_vm_folio_mt_force_preview_plugin.jpg" rel="facebox"><img src="/assets/images/vm_folio_mt_force_preview_plugin.jpg" alt="[Movable Type Force Preview Plugin]" title="[Movable Type Force Preview Plugin]" class="folio-image" /></a></p>
 
 							<h3>Movable Type Force Preview plugin</h3>
 
@@ -100,7 +100,7 @@
 
 					<div class="three-columns row">
 						<article class="three-column-single col-md-4">
-							<p class="centered"><a href="/images/_full_vm_folio_ni_processdocs.jpg" rel="facebox"><img src="/images/vm_folio_ni_processdocs.jpg" alt="[NI Tech Comm Process Documents]" title="[NI Tech Comm Process Documents]" class="folio-image" /></a></p>
+							<p class="centered"><a href="/assets/images/_full_vm_folio_ni_processdocs.jpg" rel="facebox"><img src="/assets/images/vm_folio_ni_processdocs.jpg" alt="[NI Tech Comm Process Documents]" title="[NI Tech Comm Process Documents]" class="folio-image" /></a></p>
 
 							<h3>NI Tech Comm: Process Documents Portal</h3>
 
@@ -112,7 +112,7 @@
 						</article>
 
 						<article class="three-column-single col-md-4">
-							<p class="centered"><a href="/images/_full_vm_folio_ni_l10n_manager.jpg" rel="facebox"><img src="/images/vm_folio_ni_l10n_manager.jpg" alt="[NI Tech Comm Localization Project Manager]" title="[NI Tech Comm Localization Project Manager]" class="folio-image" /></a></p>
+							<p class="centered"><a href="/assets/images/_full_vm_folio_ni_l10n_manager.jpg" rel="facebox"><img src="/assets/images/vm_folio_ni_l10n_manager.jpg" alt="[NI Tech Comm Localization Project Manager]" title="[NI Tech Comm Localization Project Manager]" class="folio-image" /></a></p>
 
 							<h3>NI Tech Comm: Localization Project Manager</h3>
 
@@ -125,7 +125,7 @@
 						</article>
 
 						<article class="three-column-single-last col-md-4">
-							<p class="centered"><a href="/images/_full_vm_folio_ni_icon_glossary.jpg" rel="facebox"><img src="/images/vm_folio_ni_icon_glossary.jpg" alt="[NI Icon Glossary]" title="[NI Icon Glossary]" class="folio-image" /></a></p>
+							<p class="centered"><a href="/assets/images/_full_vm_folio_ni_icon_glossary.jpg" rel="facebox"><img src="/assets/images/vm_folio_ni_icon_glossary.jpg" alt="[NI Icon Glossary]" title="[NI Icon Glossary]" class="folio-image" /></a></p>
 
 							<h3>NI Tech Comm: Icon Glossary</h3>
 
