@@ -16,7 +16,7 @@
 				<div id="panels" class="row">
 					<section id="projects" class="three-column-single col-md-4">
 						<header class="text-center">
-							<a href="/projects/"><img src="/images/shellscript.png" width="64" height="64" /></a>
+							<a href="/projects/"><img src="/assets/images/shellscript.png" width="64" height="64" /></a>
 							<h3><a href="/projects/">Projects</a></h3>
 						</header>
 
@@ -25,7 +25,7 @@
 
 					<section id="resume" class="three-column-single col-md-4">
 						<header class="text-center">
-							<a href="/resume/"><img src="/images/file_doc.png" width="64" height="64" /></a>
+							<a href="/resume/"><img src="/assets/images/file_doc.png" width="64" height="64" /></a>
 							<h3><a href="/resume/">Résumé</a></h3>
 						</header>
 
@@ -34,7 +34,7 @@
 
 					<section id="blog" class="three-column-single-last col-md-4">
 						<header class="text-center">
-							<a href="http://blog.vigilantmedia.com/"><img src="/images/easymoblog.png" width="64" height="64" /></a>
+							<a href="http://blog.vigilantmedia.com/"><img src="/assets/images/easymoblog.png" width="64" height="64" /></a>
 							<h3><a href="http://blog.vigilantmedia.com/">Blog</a></h3>
 						</header>
 
