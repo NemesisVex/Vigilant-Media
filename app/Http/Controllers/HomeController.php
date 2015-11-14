@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\View;
+use Michelf\Markdown;
 
 class HomeController extends Controller {
 
@@ -52,8 +53,27 @@ class HomeController extends Controller {
 		$data = array_merge($page_variables, $this->layout_variables);
 		return View::make('projects', $data);
 	}
-	
+
 	public function resume()
+	{
+		$resume_path = $_SERVER['DOCUMENT_ROOT'] . '/content/greg_bueno_resumex.md';
+		if (false !== ($fp = @fopen($resume_path, 'r')))
+		{
+			$resume_input = fread($fp, filesize($resume_path));
+			fclose($fp);
+		}
+
+		$resume = Markdown::defaultTransform( $resume_input );
+
+		$page_variables = array(
+			'resume' => $resume,
+		);
+
+		$data = array_merge($page_variables, $this->layout_variables);
+		return View::make('resume', $data);
+	}
+
+	public function resume_xml()
 	{
 		$page_variables = array();
 		
@@ -89,7 +109,7 @@ class HomeController extends Controller {
 		);
 		
 		$data = array_merge($page_variables, $this->layout_variables);
-		return View::make('resume', $data);
+		return View::make('resume-xml', $data);
 	}
 	
 	public function contact()
