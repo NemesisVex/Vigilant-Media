@@ -64,13 +64,15 @@
 
 					<div class="three-columns row">
 						<article class="three-column-single col-md-4">
-							<p class="centered"><a href="/assets/images/_full_vm_folio_uw_limited_submissions.jpg" rel="facebox"><img src="/assets/images/vm_folio_uw_limited_submissions.jpg" alt="[University of Washington Research Limited Submissions]" title="[University of Washington Research Limited Submissions]" class="folio-image" /></a></p>
+							<p class="centered"><a href="/assets/images/_full_vm_folio_uw_research_website.png" rel="facebox"><img src="/assets/images/vm_folio_uw_research_website.png" alt="[University of Washington Research Website]" title="[University of Washington Research Website]" class="folio-image" /></a></p>
 
-							<h3>University of Washington Research Limited Submissions</h3>
+							<h3>University of Washington Research Website</h3>
 							
-							<p>The <a href="http://www.washington.edu/research/funding/limited-submissions/">University of Washington Research Limited Submissions site</a> posts information about grants, awards and fellowships that limit the number of applications per institution.</p>
+							<p>The <a href="http://www.washington.edu/research/">University of Washington Research website</a> relaunched as a WordPress site, replacing a custom-built content management system.</p>
 							
-							<p>The design and functionality of the original site had not been updated in a number of years, so for this project, I worked primarily on the controllers and models for the public-facing site and a new administration interface.</p>
+							<p>A contracted agency designed the look and feel, but the implementation was left to UW staff, including myself.</p>
+
+							<p>The new site required the development of numerous custom plugins and the creation of a child theme.</p>
 						</article>
 
 						<article class="three-column-single col-md-4">
@@ -98,45 +100,5 @@
 						</article>
 					</div>
 
-					<div class="three-columns row">
-						<article class="three-column-single col-md-4">
-							<p class="centered"><a href="/assets/images/_full_vm_folio_ni_processdocs.jpg" rel="facebox"><img src="/assets/images/vm_folio_ni_processdocs.jpg" alt="[NI Tech Comm Process Documents]" title="[NI Tech Comm Process Documents]" class="folio-image" /></a></p>
-
-							<h3>NI Tech Comm: Process Documents Portal</h3>
-
-							<p>The NI Tech Comm Process Documents Portal is an internal web site listing various process documentation for the Technical Communications department of National Instruments.</p>
-
-							<p>The first version of the site was maintained with XML and XSL. Manual updates and inconsistent training resulted in invalid XML when checked against a schema.</p>
-
-							<p>So I built a management tool that stored the process documents in a database from which static HTML files were generated.</p>
-						</article>
-
-						<article class="three-column-single col-md-4">
-							<p class="centered"><a href="/assets/images/_full_vm_folio_ni_l10n_manager.jpg" rel="facebox"><img src="/assets/images/vm_folio_ni_l10n_manager.jpg" alt="[NI Tech Comm Localization Project Manager]" title="[NI Tech Comm Localization Project Manager]" class="folio-image" /></a></p>
-
-							<h3>NI Tech Comm: Localization Project Manager</h3>
-
-							<p>In April 2006, I was tasked to perform some administrative duties related to the localization of National Instruments documents, so I built a web-based tool to automate the process.</p>
-
-							<p>The Localization Project Manager facilitates the creation of part numbers in various systems, while also tracking the progress of a document through the localization process.</p>
-
-							<p>Automating this process reduced the administrative overhead for each localized document from 20 minutes to less than five.</p>
-
-						</article>
-
-						<article class="three-column-single-last col-md-4">
-							<p class="centered"><a href="/assets/images/_full_vm_folio_ni_icon_glossary.jpg" rel="facebox"><img src="/assets/images/vm_folio_ni_icon_glossary.jpg" alt="[NI Icon Glossary]" title="[NI Icon Glossary]" class="folio-image" /></a></p>
-
-							<h3>NI Tech Comm: Icon Glossary</h3>
-
-							<p>Formerly a site of static HTML pages, the NI Tech Comm Icon Glossary became a web application to address the exponential growth of the library.</p>
-
-							<p>Icons were being made faster than they could be added to the glossary, so I built an administrative interface to allow icons to be added, edited or removed easily.</p>
-
-							<p>Glossary content could also be exported to CSV or XML.</p>
-
-						</article>
-
-					</div>
 				</section>
 @stop
