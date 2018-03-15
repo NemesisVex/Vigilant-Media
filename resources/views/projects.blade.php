@@ -30,9 +30,7 @@
 
 							<p>WordPress powers the official sites of my various music projects, including <a href="http://observantrecords.com/">Observant Records</a>, <a href="http://eponymous4.com/">Eponymous 4</a>, <a href="http://emptyensemble.com/">Empty Ensemble</a> and <a href="http://shinkyokuadvocacy.com/">Shinkyoku Advocacy</a>.</p>
 
-							<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector-for-wordpress">custom-built WordPress plug-in</a>, while Amazon Cloudfront provides audio content.</p>
-
-							<p><a href="http://gocartdv.com/">GoCart</a> runs the <a href="https://bitbucket.org/observantrecords/observant-records-shop">Observant Records Shop</a>.</p>
+							<p>An <a href="https://bitbucket.org/observantrecords/observant-records-administration">administration site</a> maintains release information, which is accessed through a <a href="https://bitbucket.org/observantrecords/observant-records-artist-connector-for-wordpress">custom-built WordPress plug-in</a>.</p>
 
 							<p>The source code for the network is available to view on <a href="https://bitbucket.org/observantrecords/profile/repositories">Bitbucket</a> or <a href="https://github.com/observantrecords?tab=repositories">Github</a>.</p>
 
@@ -85,8 +83,6 @@
 							<p>These clients wanted such portals to be simple and expose only specific fields.</p>
 
 							<p>So I helped to build these portal from the ground-up using the Sugar REST API to read from and write to SugarCRM.</p>
-
-							<p>Find out more about this project from the <a href="http://www.epicom.com/product_catalog/support-portal">Epicom web site</a>.</p>
 						</article>
 
 						<article class="three-column-single-last col-md-4">
