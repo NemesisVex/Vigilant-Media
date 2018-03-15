@@ -47,12 +47,8 @@
 			<location>Seattle, WA</location>
 			<dates>2012 - present</dates>
 			<duties>
-				<duty>Provide support and maintenance for Office of Research web sites and application for administering research funding.</duty>
-				<duty><![CDATA[Develop web applications for Office of Research web sites. Projects include:
-				<ul>
-					<li> Building an administrative interface for limited submission opportunities</li>
-				</ul>
-				]]></duty>
+				<duty>Create and maintain custom plugins and themes for WordPress-driven web sites</duty>
+				<duty>Maintain C#/.NET application to help researchers manage grants</duty>
 			</duties>
 		</entry>
 		<entry num="2">
@@ -64,9 +60,7 @@
 				<duty><![CDATA[Customize SugarCRM to meet client needs. Projects include:
 				<ul>
 					<li> Building a customer portal for the Cases module using the REST API</li>
-					<li> Leveraging YUI to enhance the user interface</li>
 					<li> Migrating data from other CRM systems to SugarCRM, e.g. Salesforce</li>
-					<li> Integrating Google Maps and Charts into custom views</li>
 				</ul>
 				]]></duty>
 			</duties>
@@ -160,12 +154,18 @@
 	</experience>
 	<experience type="education">
 		<entry num="1">
+			<school>University of Washington</school>
+			<location>Seattle, WA</location>
+			<dates>2015 - present</dates>
+			<degree>Continuing education course work in music theory and composition</degree>
+		</entry>
+		<entry num="2">
 			<school>Austin Community College</school>
 			<location>Austin, TX</location>
 			<dates>1999 - 2007</dates>
 			<degree>Continuing education coursework in JavaScript, PERL and other languages, plus Japanese and commercial music management</degree>
 		</entry>
-		<entry num="2">
+		<entry num="3">
 			<school>University of Hawai'i at Manoa</school>
 			<location>Honolulu, HI</location>
 			<dates>1991 - 1996</dates>
@@ -173,17 +173,7 @@
 		</entry>
 	</experience>
 	<experience type="projects">
-        <entry num="1">
-            <title>Contributor</title>
-            <company>WordPress</company>
-            <location>Seattle, WA</location>
-            <dates>2014 - present</dates>
-            <duties>
-                <duty>Edit WordPress Plugin Handbook.</duty>
-            </duties>
-            <url>http://make.wordpress.org/docs/plugin-developer-handbook/</url>
-        </entry>
-		<entry num="2">
+		<entry num="1">
 			<title>Webmaster/Publisher</title>
 			<company>Musicwhore.org</company>
 			<location>Seattle, WA</location>
@@ -193,18 +183,6 @@
 			</duties>
 			<url>http://www.musicwhore.org/</url>
 		</entry>
-		<!--
-		<entry num="3">
-			<title>Webmaster</title>
-			<company>Austin Stories</company>
-			<location>Austin, TX</location>
-			<dates>2003 - present</dates>
-			<duties>
-				<duty>Created content aggregator for Austin-based online writers, including a user account system.</duty>
-			</duties>
-			<url>http://www.austin-stories.com/</url>
-		</entry>
-		-->
 	</experience>
 	<!--
 	<experience type="awards">
