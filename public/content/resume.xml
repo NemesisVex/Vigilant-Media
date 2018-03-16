@@ -34,9 +34,8 @@
 		<entry num="3" type="Development tools">
 			<skills>
 				<skill>PHPStorm</skill>
+				<skill>Visual Studio</skill>
 				<skill>Git</skill>
-				<skill>Mercurial</skill>
-                <skill>Apache</skill>
 			</skills>
 		</entry>
 	</experience>
