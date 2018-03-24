@@ -1,0 +1,179 @@
+/* 
+    Created on : May 24, 2014, 8:24:20 PM
+    Author     : gregbueno
+*/
+
+input[type=text], input[type=email], textarea {
+  border-radius: 4px;
+  padding: 3px;
+}
+
+label {
+  float: left;
+  width: 150px;
+  margin-right: 10px;
+}
+
+ul.company-info {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+ul.company-info li {
+}
+
+#contact {
+  text-align: center;
+}
+
+#container {
+}
+
+#introduction, #contact {
+  margin-bottom: 1.5em;
+}
+
+#masthead {
+  padding-bottom: 0;
+  margin-bottom: 1.5em;
+  background-color: #904848;
+  background-image: linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -o-linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -moz-linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -webkit-linear-gradient(top, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -ms-linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  color: #FFF;
+}
+
+#masthead-title {
+  margin-top: 1.5em;
+}
+
+#nav-main {
+  margin-top: 1.5em;
+}
+
+#nav-main ul {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 3px 9px;
+  }
+}
+
+#panels {
+  margin-bottom: 3em;
+}
+
+#title {
+  margin-bottom: 0.1em;
+}
+
+.button {
+  padding: 4px 10px 4px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background-color: #304B75;
+  cursor: pointer;
+}
+
+.centered {
+  text-align: center;
+}
+
+.folio-image {
+  border: 3px solid #A7A7A7;
+  border-radius: 4px;
+}
+
+.form-hidden {
+  display: none;
+}
+
+.four-column-single {
+  border-right: 1px solid #CBCBCB;
+}
+
+.four-column-single-last {
+}
+
+.full-column-last {
+  margin-bottom: 1.5em;
+}
+
+.img-align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.navbar-default {
+  padding-bottom: 0;
+  margin-bottom: 1.5em;
+  background-color: #904848;
+  background-image: linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -o-linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -moz-linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -webkit-linear-gradient(top, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  background-image: -ms-linear-gradient(bottom, rgb(144, 72, 72), rgb(200, 145, 145) 80px);
+  color: #FFF;
+}
+
+.nav-social {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    margin-right: 6px;
+  }
+}
+
+@mixin resume-column {
+  padding-top: 1.5em;
+  border-top: 1px solid #CCC;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.resume-column-1 {
+  @include resume-column;
+}
+
+.resume-column-2 {
+  @include resume-column;
+  border-top: 1px solid #CCC;
+}
+
+.resume-skills li {
+  float: left;
+  margin-right: 24px;
+}
+
+.three-column-single {
+  border-right: 1px solid #CBCBCB;
+}
+
+.three-column-single-last {
+}
+
+.three-columns {
+  margin-bottom: 3em;
+}
+
+.two-column-single {
+  border-right: 1px solid #CBCBCB;
+}
+
+.two-column-single-last {
+}
+
+@media screen and (max-width: 768px) {
+  #nav-main ul {
+    list-style-type: none;
+    li {
+      display: block;
+    }
+  }
+}
+

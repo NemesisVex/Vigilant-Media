@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
+Route::get('/projects/', 'HomeController@projects');
+Route::get('/resume/', 'HomeController@resume');
+Route::get('/contact/', 'HomeController@contact');
+Route::get('/contact/sent/', 'HomeController@contact_sent');
+Route::post('/email', 'MailController@email');
