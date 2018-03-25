@@ -47,9 +47,9 @@
 						<p>Want to get in touch? <a href="/contact/">Send an e-mail</a>. You can also find me on these and other fine web destinations:</p>
 
 						<ul class="nav-social">
-							<li><a href="http://bitbucket.org/NemesisVex"><img src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/images/icons/bitbucket-16x16.png" alt="[Bitbucket]" title="[Bitbucket]" /></a></li>
-							<li><a href="http://www.linkedin.com/pub/greg-bueno/3/3a3/a98"><img src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/images/icons/linkedin.png" alt="[LinkedIn]" title="[LinkedIn]" /></a></li>
-							<li><a href="http://www.twitter.com/NemesisVex"><img src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/images/icons/twitter.png" alt="[Twitter]" title="[Twitter]" /></a></li>
+							<li><a href="https://bitbucket.org/NemesisVex"><img src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/images/icons/bitbucket-16x16.png" alt="[Bitbucket]" title="[Bitbucket]" /></a></li>
+							<li><a href="https://www.linkedin.com/in/gregbueno/"><img src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/images/icons/linkedin.png" alt="[LinkedIn]" title="[LinkedIn]" /></a></li>
+							<li><a href="https://www.twitter.com/NemesisVex"><img src="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/images/icons/twitter.png" alt="[Twitter]" title="[Twitter]" /></a></li>
 						</ul>
 					</section>
 				</div>
